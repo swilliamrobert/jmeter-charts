@@ -19,13 +19,13 @@ cat jmeterResults.jtl | transformJtlToCsv.sh > jmeterResults.csv
 
 == Generating a chart ==
  * See createChart.sh for an example
- * See AbstractChart.java for more detail
+ * See !AbstractChart.java for more detail
 
 == Chart Types ==
 *Jmeter*
- * ResponseMsOverTime - Response over time, uses BucketFiller to work out averrage response in definable increments
- * UserActivityOverTime - Active threads over time
- * ThroughPutOverTime - Requests per second over time, can use filters to break down to specific requests
- * PctResponseWithinMs - Percent of responses that are within a defined maximum response time
+ * !ResponseMsOverTime - Response over time, uses !BucketFiller to work out averrage response in definable increments
+ * !UserActivityOverTime - Active threads over time
+ * !ThroughPutOverTime - Requests per second over time, can use filters to break down to specific requests
+ * !PctResponseWithinMs - Percent of responses that are within a defined maximum response time
 *Nmon*
- * NmonOverTime - Reads from an NMON csv result file, provides server resource details
+ * !NmonOverTime - Reads from an NMON csv result file, provides server resource details
